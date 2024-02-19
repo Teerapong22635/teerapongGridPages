@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,44 +10,107 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="Content-Language" content="th">
     <title>My Website TEERAPONG</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <style>
+      /* Add your custom styles here */
+      body {
+          font-family: 'Roboto', sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+  
+      .header {
+          background-color: #182bb8;
+          color: white;
+          text-align: center;
+          padding: 20px;
+      }
+  
+      .row {
+          display: grid;
+          grid-template-columns: 1fr 3fr; /* Adjust column width as needed */
+      }
+  
+      .menu {
+          background-color: #f2f2f2;
+          padding: 20px;
+      }
+  
+      .menu ul {
+          list-style-type: none;
+          padding: 0;
+      }
+  
+      .menu ul li {
+          margin-bottom: 10px;
+      }
+  
+      .menu ul li a {
+          text-decoration: none;
+          color: #ffffff;
+      }
+  
+      .content {
+          padding: 20px;
+          margin: auto; /* Center the content */
+          max-width: 800px; /* Set maximum width of content */
+      }
+  
+      .footer {
+          background-color: #182bb8;
+          color: white;
+          text-align: center;
+          padding: 20px;
+          clear: both;
+      }
+  
+      /* Responsive Design */
+      @media screen and (max-width: 768px) {
+          .row {
+              grid-template-columns: 1fr;
+          }
+          .menu {
+              text-align: center;
+          }
+          .content {
+              margin-top: 20px;
+          }
+      }
+  </style>
+  
 </head>
+
 <body>
 
-<div class="header">
-  <h1>TEERAPONG PAGES</h1>
-</div>
-
-<div class="row" >
-  <div class="col-3 col-s-3 menu">
-    <ul>
-        <li><a href="index.html">Homepage</a></li>
-        <li><a href="My_Showcase.html">My Showcase</a></li>
-        <li><a href="TU_Life.html">TU Life</a></li>
-        <li><a href="My_Resume.html">My Resume</a></li>
-    </ul>
-  </div>
-
-  <div class="col-s-9 col-s-9">
-    <h1>Welcome everyone to my website.</h1>
-    <h2>สวัสดีครับ ยินดีต้อนรับทุกคนสู่เว็บไซต์ของผม </h2>
-    <p>โดย นายธีรพงษ์ นพศิริรัตน์</p>
-    <div class="circle-frame">
-        <img src="images/1.jpg" alt="Circle Image" >
-    </div>
+    <div class="header">
+        <h1>TEERAPONG PAGES</h1>
     </div>
 
-  
-</div>
+    <div class="row">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="My_Showcase.html">My Showcase</a></li>
+                <li><a href="TU_Life.html">TU Life</a></li>
+                <li><a href="My_Resume.html">My Resume</a></li>
+            </ul>
+        </div>
 
-<div class="footer">
-    <a href="mailto:teerapong.nop@dome.tu.ac.th">Email : Teerapong.nop@dome.tu.ac.th</a>
-    <a href="tel:+66625833318">Phone : 0625833318</a>
+        <div class="content">
+            <h1>Welcome everyone to my website.</h1>
+            <h2>สวัสดีครับ ยินดีต้อนรับทุกคนสู่เว็บไซต์ของผม </h2>
+            <p>โดย นายธีรพงษ์ นพศิริรัตน์</p>
+            <div class="circle-frame">
+                <img src="images/1.jpg" alt="Circle Image">
+            </div>
+        </div>
+    </div>
 
-</div>
+    <div class="footer">
+        <a href="mailto:teerapong.nop@dome.tu.ac.th">Email : Teerapong.nop@dome.tu.ac.th</a>
+        <a href="tel:+66625833318">Phone : 0625833318</a>
+    </div>
 
 </body>
+
 </html>
-
-
